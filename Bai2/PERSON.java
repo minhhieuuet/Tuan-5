@@ -13,7 +13,7 @@ public class PERSON {
     String Name,Address,Department;
     void print()
     {
-        System.out.println("hi hi");
+        System.out.println("Name"+this.Name+"\n"+"Address"+this.Address+"\n"+"Department"+this.Department);
     }
     void setName(String n)
     {
@@ -23,7 +23,7 @@ public class PERSON {
     {
         this.Address=n;
     }
-    void setDeparterment(String n)
+    void setDepartment(String n)
     {
         this.Department=n;
     }
